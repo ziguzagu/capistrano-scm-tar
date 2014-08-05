@@ -16,7 +16,7 @@ namespace :tar do
 
       # expand tarball
       execute :mkdir, '-p', release_path
-      execute :tar, '-xzf', tmp, '-C', release_path
+      execute :tar, '-xzpf', tmp, '-C', release_path
       set :current_revision, rev
 
       # cleanup
