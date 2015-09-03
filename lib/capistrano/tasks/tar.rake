@@ -3,7 +3,7 @@ namespace :tar do
 
   task :create_release do
     if ! ENV['package']
-      abort "require 'package=<path/to/archive.tar.gz>' environtment variable by tar scm"
+      abort "require 'package=<path/to/archive.tar.gz>' environment variable by tar scm"
     end
 
     on release_roles :all do
