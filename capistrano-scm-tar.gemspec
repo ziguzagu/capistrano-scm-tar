@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["ziguzagu@gmail.com"]
   spec.summary       = %q{A tar strategy for Capistrano 3 to deploy tarball.}
   spec.description   = %q{A tar strategy for Capistrano 3 to deploy tarball.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/ziguzagu/capistrano-scm-tar"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
