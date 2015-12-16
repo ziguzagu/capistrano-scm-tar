@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Capistrano::Scm::Tar::VERSION
   spec.authors       = ["ziguzagu"]
   spec.email         = ["ziguzagu@gmail.com"]
-  spec.summary       = %q{A tar strategy for Capistrano 3 to deploy prebuilt tarball.}
-  spec.description   = %q{A tar strategy for Capistrano 3 to deploy prebuilt tarball.}
+  spec.summary       = %q{A tar strategy for Capistrano 3 to deploy tarball.}
+  spec.description   = %q{A tar strategy for Capistrano 3 to deploy tarball.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
