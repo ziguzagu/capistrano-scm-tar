@@ -8,7 +8,7 @@ namespace :tar do
 
     on release_roles :all do
       pkg = ENV['package']
-      rev = (File.basename(pkg).split('.')-['tar', 'gz', 'tgz']).join('.')
+      rev = (File.basename(pkg).split('.') - ['tar', 'gz', 'tgz']).join('.')
       tmp = capture 'mktemp'
 
       # upload tarball
