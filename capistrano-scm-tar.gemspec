@@ -5,7 +5,7 @@ require 'capistrano/scm/tar/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "capistrano-scm-tar"
-  spec.version       = Capistrano::Scm::Tar::VERSION
+  spec.version       = Capistrano::SCM::Tar::VERSION
   spec.authors       = ["ziguzagu"]
   spec.email         = ["ziguzagu@gmail.com"]
   spec.summary       = %q{A tar strategy for Capistrano 3 to deploy tarball.}
