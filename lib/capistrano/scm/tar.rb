@@ -2,11 +2,10 @@ require 'capistrano/scm/tar/version'
 require 'capistrano/scm/plugin'
 
 module Capistrano
-  module SCM
-    module Tar
+  class SCM
+    class Tar
       class Plugin < ::Capistrano::SCM::Plugin
         def set_defaults
-          set :scm, :tar
         end
 
         def find_package

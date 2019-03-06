@@ -1,7 +1,7 @@
 module Capistrano
-  module SCM
-    module Tar
-      VERSION = "0.0.6"
+  class SCM
+    class Tar
+      VERSION = "0.1.1"
     end
   end
 end
