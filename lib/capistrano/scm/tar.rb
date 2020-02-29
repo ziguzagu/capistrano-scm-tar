@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "capistrano/scm/tar/version"
 
 module Capistrano

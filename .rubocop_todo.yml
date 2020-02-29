@@ -8,12 +8,6 @@
 
 # Offense count: 1
 # Cop supports --auto-correct.
-Layout/EmptyLineAfterMagicComment:
-  Exclude:
-    - 'capistrano-scm-tar.gemspec'
-
-# Offense count: 1
-# Cop supports --auto-correct.
 # Configuration parameters: EnforcedStyle.
 # SupportedStyles: final_newline, final_blank_line
 Layout/TrailingEmptyLines:
@@ -33,28 +27,6 @@ Style/ExpandPathArguments:
   Exclude:
     - 'capistrano-scm-tar.gemspec'
     - 'lib/capistrano/tar.rb'
-
-# Offense count: 7
-# Cop supports --auto-correct.
-# Configuration parameters: EnforcedStyle.
-# SupportedStyles: always, always_true, never
-Style/FrozenStringLiteralComment:
-  Exclude:
-    - 'Gemfile'
-    - 'Rakefile'
-    - 'capistrano-scm-tar.gemspec'
-    - 'lib/capistrano/scm/tar.rb'
-    - 'lib/capistrano/scm/tar/version.rb'
-    - 'lib/capistrano/tar.rb'
-    - 'lib/capistrano/tasks/tar.rake'
-
-# Offense count: 1
-# Cop supports --auto-correct.
-# Configuration parameters: EnforcedStyle.
-# SupportedStyles: literals, strict
-Style/MutableConstant:
-  Exclude:
-    - 'lib/capistrano/scm/tar/version.rb'
 
 # Offense count: 2
 # Cop supports --auto-correct.

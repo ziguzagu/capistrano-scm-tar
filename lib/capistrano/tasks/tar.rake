@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # -*- mode: ruby -*-
 namespace :tar do
   task :create_release do
