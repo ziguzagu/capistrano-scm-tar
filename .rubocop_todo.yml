@@ -28,29 +28,6 @@ Style/ExpandPathArguments:
     - 'capistrano-scm-tar.gemspec'
     - 'lib/capistrano/tar.rb'
 
-# Offense count: 2
-# Cop supports --auto-correct.
-# Configuration parameters: PreferredDelimiters.
-Style/PercentLiteralDelimiters:
-  Exclude:
-    - 'capistrano-scm-tar.gemspec'
-
-# Offense count: 2
-# Cop supports --auto-correct.
-Style/RedundantPercentQ:
-  Exclude:
-    - 'capistrano-scm-tar.gemspec'
-
-# Offense count: 12
-# Cop supports --auto-correct.
-# Configuration parameters: EnforcedStyle, ConsistentQuotesInMultiline.
-# SupportedStyles: single_quotes, double_quotes
-Style/StringLiterals:
-  Exclude:
-    - 'Rakefile'
-    - 'capistrano-scm-tar.gemspec'
-    - 'lib/capistrano/scm/tar.rb'
-
 # Offense count: 1
 # Cop supports --auto-correct.
 # Configuration parameters: MinSize, WordRegex.
