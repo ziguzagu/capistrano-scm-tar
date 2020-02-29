@@ -14,12 +14,6 @@ Layout/EmptyLineAfterMagicComment:
 
 # Offense count: 1
 # Cop supports --auto-correct.
-Layout/SpaceAfterNot:
-  Exclude:
-    - 'lib/capistrano/tasks/tar.rake'
-
-# Offense count: 1
-# Cop supports --auto-correct.
 # Configuration parameters: EnforcedStyle.
 # SupportedStyles: final_newline, final_blank_line
 Layout/TrailingEmptyLines:
@@ -61,14 +55,6 @@ Style/FrozenStringLiteralComment:
 Style/MutableConstant:
   Exclude:
     - 'lib/capistrano/scm/tar/version.rb'
-
-# Offense count: 1
-# Cop supports --auto-correct.
-# Configuration parameters: EnforcedStyle.
-# SupportedStyles: both, prefix, postfix
-Style/NegatedIf:
-  Exclude:
-    - 'lib/capistrano/tasks/tar.rake'
 
 # Offense count: 2
 # Cop supports --auto-correct.
