@@ -1,6 +1,5 @@
 # -*- mode: ruby -*-
 namespace :tar do
-
   task :create_release do
     if ! ENV['package']
       abort "require 'package=<path/to/archive.tar.gz>' environment variable by tar scm"
@@ -26,5 +25,4 @@ namespace :tar do
 
   task :check
   task :set_current_revision
-
 end

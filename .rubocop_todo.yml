@@ -12,14 +12,6 @@ Layout/EmptyLineAfterMagicComment:
   Exclude:
     - 'capistrano-scm-tar.gemspec'
 
-# Offense count: 2
-# Cop supports --auto-correct.
-# Configuration parameters: EnforcedStyle.
-# SupportedStyles: empty_lines, no_empty_lines
-Layout/EmptyLinesAroundBlockBody:
-  Exclude:
-    - 'lib/capistrano/tasks/tar.rake'
-
 # Offense count: 1
 # Cop supports --auto-correct.
 Layout/SpaceAfterNot:
