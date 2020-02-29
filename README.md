@@ -1,5 +1,8 @@
 # capistrano-scm-tar
 
+[![Gem Version](https://badge.fury.io/rb/capistrano-scm-tar.svg)](https://badge.fury.io/rb/capistrano-scm-tar)
+
+
 A tar strategy for Capistrano 3 to deploy tarball.
 
 ## Installation
@@ -33,6 +36,11 @@ cap deploy package=/tmp/v1.0.0.tar.gz
 
 The basename of tarball is used for the revision number of capistrano setting by `set_current_revision`.
 
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at [https://github.com/toreta/time_second](https://github.com/toreta/time_second).
+
 ## License
 
-The MIT License (MIT)
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
