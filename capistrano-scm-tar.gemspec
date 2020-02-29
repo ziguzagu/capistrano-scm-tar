@@ -21,4 +21,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "capistrano", "~> 3.0"
 
   spec.add_development_dependency "rake", ">= 12.3.3"
+  spec.add_development_dependency 'rubocop', '~> 0.80'
 end
