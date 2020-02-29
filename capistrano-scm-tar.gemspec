@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'capistrano/scm/tar/version'
+require_relative 'lib/capistrano/scm/tar/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'capistrano-scm-tar'

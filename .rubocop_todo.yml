@@ -13,13 +13,6 @@ Style/Documentation:
     - 'test/**/*'
     - 'lib/capistrano/scm/tar.rb'
 
-# Offense count: 2
-# Cop supports --auto-correct.
-Style/ExpandPathArguments:
-  Exclude:
-    - 'capistrano-scm-tar.gemspec'
-    - 'lib/capistrano/tar.rb'
-
 # Offense count: 1
 # Cop supports --auto-correct.
 # Configuration parameters: MinSize, WordRegex.
