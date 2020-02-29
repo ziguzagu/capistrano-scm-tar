@@ -1,7 +1,8 @@
 # capistrano-scm-tar
 
 [![Gem Version](https://badge.fury.io/rb/capistrano-scm-tar.svg)](https://badge.fury.io/rb/capistrano-scm-tar)
-
+[![Maintainability](https://api.codeclimate.com/v1/badges/0c077beb6ef93cd84d3e/maintainability)](https://codeclimate.com/github/ziguzagu/capistrano-scm-tar/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/0c077beb6ef93cd84d3e/test_coverage)](https://codeclimate.com/github/ziguzagu/capistrano-scm-tar/test_coverage)
 
 A tar strategy for Capistrano 3 to deploy tarball.
 
